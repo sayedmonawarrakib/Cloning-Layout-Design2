@@ -1,0 +1,283 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+#layout2 {
+    width: 59%;
+    margin: 0px auto;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+#box {
+    background: black;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box_item1 {
+    width: 58%;
+    text-align: left;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: #f0f8ff24;
+    padding-left: 10px;
+}
+
+.box_item2 {
+    width: 58%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    background: #a5a5a561;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+#mg {
+    margin: 0px;
+    font-size: 40px;
+}
+
+
+#sb {
+    color: rgb(216, 216, 216);
+    font-weight: 100;
+    font-family: 'century gothic';
+}
+
+
+.a {
+    color: #d98e73;
+}
+
+.a_w {
+    color: #aa7a69;
+}
+
+#c_b {
+    color: #000;
+}
+
+.box_item2 a {
+    color: #ffffff;
+}
+
+.left_item {
+    border: 2px solid #0000001a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    width: 81%;
+}
+
+.box_item2 a {
+    padding: 7px 22px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    background: #68493dde;
+}
+
+.box_item2 a:hover {
+    background: #b1816fde;
+    color: #ffffff;
+
+}
+
+#active {
+    background: #b1816fde;
+    color: #fdfdfd;
+    /* border-radius: 6px; */
+    font-size: 14px;
+}
+
+#box2 img {
+    margin-top: 20px;
+    border: 10px solid #0000003b;
+    width: 98%;
+}
+
+#box3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.box3_left {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 5px;
+}
+
+.box3_right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 5px 0px 30px;
+}
+
+
+
+h1 {
+    color: #9c634f;
+    font-size: 22px;
+    margin: 10px 0px 20px 0px;
+    font-weight: 500;
+    font-family: 'century gothic';
+}
+
+h2 {
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3 {
+    color: #b98572;
+    font-size: 14px;
+    margin: 0px 0px 2px 0px;
+    font-weight: 600;
+    font-family: 'century gothic';
+}
+
+h4 {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'century gothic';
+}
+
+h5 {
+    color: #ff516f;
+    font-size: 12px;
+    margin: 2px 0px 5px 0px;
+    font-weight: 500;
+    font-family: 'century gothic';
+}
+
+
+.p_f {
+    display: flex;
+    flex-direction: row;
+}
+
+p,
+li {
+    margin: 0px 0px 2px 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.7em;
+    text-align: justify;
+    font-family: system-ui;
+}
+
+
+.item2_right {
+    width: 30%;
+    overflow: hidden;
+
+}
+
+
+
+#r_a {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 0.7em;
+    margin: 0px 0px 0px 0px;
+    color: #b1735d;
+}
+
+.link p {
+    max-width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#s-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+#sec2_item3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+    height: 100px;
+    flex-direction: column;
+}
+
+#sec2_item3 p {
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+}
+
+
+
+#cu-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.fl {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fb {
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#btn {
+    margin-top: 15px;
+    padding: 7px 25px;
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid;
+}
+
+.in {
+    width: 300px;
+    height: 25px;
+    margin: 5px 0px;
+}
+
+textarea {
+
+    margin: 5px 0px;
+}
+
+.p {
+    width: 230px;
+}
